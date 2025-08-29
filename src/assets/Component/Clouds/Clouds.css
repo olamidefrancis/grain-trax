@@ -1,0 +1,8 @@
+.cloud__container{
+    background:   linear-gradient(-120.5deg, hsla(210, 20%, 98%, 0.3)50%, hsla(213, 7%, 30%, 0.454) calc(50% + 1px)), url(../../Images/dullc.jpg);
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
