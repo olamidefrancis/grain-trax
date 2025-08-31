@@ -14,8 +14,8 @@ const router = createBrowserRouter([
   element: <div>
                 <Navbar/>
                 <EmblaCarousel/>
-                <Clouds/>
                 <Industries/>
+                <Clouds/>
                 <Footer/>
            </div>,
   errorElement: <div>404 Page not found</div>
