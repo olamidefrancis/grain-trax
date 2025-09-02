@@ -24,7 +24,7 @@ const Contact=()=> {
         <div className="info__container">
             <div className="info__container--info">
                 <div className="info__container--info--emailcon">
-                    <input type="text" placeholder='Your Name' />
+                    <input type="text " className='space' placeholder='Your Name' />
                     <input type="text" placeholder='Your Email' />
                     <input type="text" placeholder='Your Area of interest' />
                 </div>
@@ -43,17 +43,17 @@ const Contact=()=> {
 
                     <div className="info__container--location--content">
                         <div className='flexy'> 
-                            <i class="fa-solid fa-location-dot fa-l" style={{color: "rgb(235, 203, 144)"}}></i>
+                            <i className="fa-solid fa-location-dot fa-l" style={{color: "rgb(235, 203, 144)"}}></i>
                             <p>Chichester Road Portsmouth</p>
                         </div>
 
                         <div className='flexy'> 
-                            <i class="fa-solid fa-phone fa-l" style={{color: "rgb(235, 203, 144)"}}></i>
+                            <i className="fa-solid fa-phone fa-l" style={{color: "rgb(235, 203, 144)"}}></i>
                             <p>+44 7424858685</p>
                         </div>
 
                         <div className='flexy'> 
-                            <i class="fa-solid fa-envelope" style={{color: "rgb(235, 203, 144)"}}></i>
+                            <i className="fa-solid fa-envelope" style={{color: "rgb(235, 203, 144)"}}></i>
                             <p>Olatigbay@gmail.com</p>
                         </div>
                     </div>
