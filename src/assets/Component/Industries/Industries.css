@@ -1,86 +1,4 @@
-/* .industries{
-    display: flex;
-    flex-direction: column;
-    gap:1rem;
-    width: 100%;
-    padding-top: 2rem;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
 
-.industries__title{
-    align-self: center;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; ///comment this out 
-}
-
-.industries__intro{
-    align-self: center;
-}
-
-.industries__grid-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    width: 100%;
-    padding: 1rem;
-    gap:2rem;
-    justify-items: center;
-    align-items: center;
-}
-
- .industries__grid-container:hover{
-     
-} 
-
-.industries__grid-container1,
-.industries__grid-container2,
-.industries__grid-container3,
-.industries__grid-container4
-{
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    column-gap: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 5px;
-    justify-items: center;
-    align-items: center;
-    width: 400px;
-}
-
-
-
-.industries__grid-container1--content{
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    padding-top: 2rem;
-}
-
-.industries__grid-container1--content h2{
-    position: relative;
-}
-
-.industries__grid-container1--content h2::after{
-    content: ' ';
-    position: absolute;
-    bottom:  -2px;
-    left: 0px;
-    height: 2px;
-    width: 50%;
-    background-color: rgb(166, 192, 240);
-
-}
-
-.industries__grid-container1 figure,
-.industries__grid-container2 figure,
-.industries__grid-container3 figure,
-.industries__grid-container4 figure{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding-top: 3rem;
-    object-fit:cover;
-} */
 
 .industry__con{
     display: grid;
@@ -95,10 +13,11 @@
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(239, 217, 182, 0.2), 0 6px 20px 0 rgba(239, 217, 182, 0.19);
     text-align: center;
-    height: 250px;
+    height: fit-content;
     width: fit-content;
     justify-content: center;
     align-content: center;
+    padding: 1rem;
 }
 
 .industry__con--content--num{

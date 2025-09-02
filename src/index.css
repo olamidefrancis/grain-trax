@@ -27,8 +27,6 @@ width:100%;
 
 @media screen and (max-width: 500px) {
  
-      
-
     .links1,
     .links2,
     .links3{
@@ -59,16 +57,10 @@ width:100%;
         border-radius: 1rem;
     }
 
-    .company__name--title{
-      font-size: 1.4rem;
-    }
-
-      .nav__container{
-        height: 6vh;
-      }
+     
   }
 
-   
+  
 
   
 

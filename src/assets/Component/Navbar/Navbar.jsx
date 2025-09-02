@@ -30,18 +30,6 @@ const Navbar=()=> {
                     </ul>
                 </div>
 
-                {/* <div className="forborder_effect">  
-
-                        <div className="callUs">
-                            <i className="phoneIcon fa-notdog fa-solid fa-phone" ></i>
-
-                            <div className="phoneNumber">
-                                <p>Call us anytime</p>
-                                <p className='number'>+44 7424858685</p>
-                            </div>
-                        </div>
-                </div> */}
-
         </div>
         
     )
