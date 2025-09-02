@@ -1,45 +1,65 @@
 import './Contact.css';
-import facebook from '../../Images/icons8-facebook-windows-11-color-32.png'
-import insta from '../../Images/icons8-instagram-windows-11-color-32.png'
-import x from '../../Images/icons8-x-windows-11-color-32.png'
-import linkedin from '../../Images/icons8-linkedin-3d-fluency-32.png'
 import { Link } from 'react-router'
-
-
+import "tailwindcss";
+import bg from '../../Images/pyrite-626549_640.jpg'
 
 
 const Contact=()=> {
     return (
-        <div className="contact__container">
-            <div className="contact__container1">
-                <div className="contact__container1--intro">
-                
+    
+    <div className='contact__container'>
+        <div className="contact__container--content">
+            <div className="h-full w-full bg-cover bg-center  flex items-center justify-center" style={{ backgroundImage: `url(${bg})` }}>
+                <div className=" h-full w-full backdrop-blur-md bg-white/30 flex items-center justify-center ">
+                      <div className="borderconx">
+                            <h2>
+                                    <span style={{color: "red"}}>Grain</span>&Trax
+                            </h2>
+                     </div>
                 </div>
-                <div className="contact__container1--intro--content">
-                    <h1 className="contact__container1--intro--content--title">
-                           <span style={{color:"rgb(238, 75, 43)"}}> Grain</span>&Trax
-                    </h1>
-                    <div className="contact__container1--intro--content--socials">
-                            <Link to='https://www.youtube.com/watch?v=m8g2uQhdBmk&list=RDBD2msFMmgsY&index=27' className='imgglow'>
-                                <img src={facebook} alt="facebook"  />
-                            </Link>
+            </div>
 
-                             <Link to='https://www.youtube.com/watch?v=m8g2uQhdBmk&list=RDBD2msFMmgsY&index=27' className='imgglow'>
-                                <img src={insta} alt="insta" />
-                            </Link>
+        </div>
 
-                             <Link to='https://www.youtube.com/watch?v=m8g2uQhdBmk&list=RDBD2msFMmgsY&index=27' className='imgglow'>
-                                <img src={x} alt="x"  />
-                            </Link>
+        <div className="info__container">
+            <div className="info__container--info">
+                <div className="info__container--info--emailcon">
+                    <input type="text" placeholder='Your Name' />
+                    <input type="text" placeholder='Your Email' />
+                    <input type="text" placeholder='Your Area of interest' />
+                </div>
+                <textarea name="areas_of_interest_message" id="areas_of_interest_id"
+                   rows="6" cols="50" placeholder=" Your message"
+                ></textarea>
+                <div className="send_message">
+                    <button>Send Message</button>
+                </div>
+            </div>
+            <div className="info__container--location">
+                     <div className="flexy--title">
 
-                             <Link to='https://www.youtube.com/watch?v=m8g2uQhdBmk&list=RDBD2msFMmgsY&index=27' className='imgglow'>
-                                <img src={linkedin} alt="linkedin"  />
-                            </Link>
+                        <h1>Main Office</h1>
+                     </div>
+
+                    <div className="info__container--location--content">
+                        <div className='flexy'> 
+                            <i class="fa-solid fa-location-dot fa-l" style={{color: "rgb(235, 203, 144)"}}></i>
+                            <p>Chichester Road Portsmouth</p>
+                        </div>
+
+                        <div className='flexy'> 
+                            <i class="fa-solid fa-phone fa-l" style={{color: "rgb(235, 203, 144)"}}></i>
+                            <p>+44 7424858685</p>
+                        </div>
+
+                        <div className='flexy'> 
+                            <i class="fa-solid fa-envelope" style={{color: "rgb(235, 203, 144)"}}></i>
+                            <p>Olatigbay@gmail.com</p>
+                        </div>
                     </div>
-                </div>
-
             </div>
         </div>
+    </div>
     )
 }
 
