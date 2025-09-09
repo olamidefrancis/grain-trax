@@ -214,3 +214,16 @@ row-gap: 1rem;
 }
 
 }
+
+.socialflexy{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    column-gap: 2rem;
+    
+}
+
+.socialflexy img{
+    width: 30px;
+    height: 30px;
+}

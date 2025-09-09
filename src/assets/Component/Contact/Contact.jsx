@@ -2,6 +2,9 @@ import './Contact.css';
 import { Link } from 'react-router'
 import "tailwindcss";
 import bg from '../../Images/pyrite-626549_640.jpg'
+import instagram from '../../Images/icons8-instagram-48.png'
+import facebook from '../../Images/icons8-facebook-48.png'
+import linkedin from '../../Images/icons8-linkedin-48.png'
 
 
 const Contact=()=> {
@@ -44,17 +47,32 @@ const Contact=()=> {
                     <div className="info__container--location--content">
                         <div className='flexy'> 
                             <i className="fa-solid fa-location-dot fa-l" style={{color: "rgb(235, 203, 144)"}}></i>
-                            <p>Chichester Road Portsmouth</p>
+                            <p>Minsk, Belarus</p>
                         </div>
 
                         <div className='flexy'> 
                             <i className="fa-solid fa-phone fa-l" style={{color: "rgb(235, 203, 144)"}}></i>
-                            <p>+44 7424858685</p>
+                            <p>+375 25 950-23-88</p>
                         </div>
 
                         <div className='flexy'> 
                             <i className="fa-solid fa-envelope" style={{color: "rgb(235, 203, 144)"}}></i>
-                            <p>Olatigbay@gmail.com</p>
+                            <p> graintraxinc@gmail.com</p>
+                        </div>
+
+                        <div className='socialflexy'> 
+                                
+                          <Link  to="/Home" className="instagream">
+                                <img src={facebook} alt="" />
+                          </Link>
+                          <Link to="/Home" className="facebook">
+                                <img src={instagram} alt="" />
+                          </Link>
+                          <Link to="/Home" className="Linkedin">
+                                <img src={linkedin} alt="" />
+                          </Link>
+                            
+                            
                         </div>
                     </div>
             </div>
