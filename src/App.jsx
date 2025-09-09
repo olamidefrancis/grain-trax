@@ -25,7 +25,7 @@ const router = createBrowserRouter([
   element: <>
                <Navbar/>
                <Contact/>
-               
+               <Footer/>
            </>
   },
       
