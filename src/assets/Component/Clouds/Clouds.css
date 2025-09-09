@@ -85,6 +85,10 @@
 
 }
 
+.cloud__container-aboutus-content h3{
+  text-align: center;
+}
+
 .cloud__container-aboutus-content-whoweserve{
   display: flex;
   flex-direction: column;

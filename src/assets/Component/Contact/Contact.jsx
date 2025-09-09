@@ -21,7 +21,7 @@ const Contact=()=> {
                             </h2>
                      </div>
 
-                     <h3 style={{fontSize: "1.3rem", fontWeight:"400", padding:"0.5rem"}} >Looking for a secure, high trust supplier of gold, silver, or  platinum?<span style={{color: "red"}}> Reach out for a tailored metals procurement quote</span> 
+                     <h3 style={{fontSize: "1.3rem", fontWeight:"400", padding:"0.5rem", textAlign:"center"}} >Looking for a secure, high trust supplier of gold, silver, or  platinum?<span style={{color: "red"}}> Reach out for a tailored metals procurement quote</span> 
                      </h3>
                 </div>
 
