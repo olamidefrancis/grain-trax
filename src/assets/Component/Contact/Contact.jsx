@@ -12,14 +12,19 @@ const Contact=()=> {
     
     <div className='contact__container'>
         <div className="contact__container--content">
-            <div className="h-full w-full bg-cover bg-center  flex items-center justify-center" style={{ backgroundImage: `url(${bg})` }}>
-                <div className=" h-full w-full backdrop-blur-md bg-white/30 flex items-center justify-center ">
+            <div className="h-full w-full bg-cover bg-center  flex items-center justify-center " style={{ backgroundImage: `url(${bg})` }}>
+
+                <div className=" h-full w-full backdrop-blur-md bg-white/30 flex items-center justify-center flex-col gap-y-8 ">
                       <div className="borderconx">
                             <h2>
                                     <span style={{color: "red"}}>Grain</span>&Trax
                             </h2>
                      </div>
+
+                     <h3 style={{fontSize: "1.3rem", fontWeight:"400", padding:"0.5rem"}} >Looking for a secure, high trust supplier of gold, silver, or  platinum?<span style={{color: "red"}}> Reach out for a tailored metals procurement quote</span> 
+                     </h3>
                 </div>
+
             </div>
 
         </div>
