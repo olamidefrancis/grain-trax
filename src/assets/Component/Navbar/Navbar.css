@@ -36,11 +36,12 @@
     background-color:rgb(240, 215, 170);
     width: 90%;
     height: 90%; 
+    font-size: 2rem;
 }
 
 .company__name--title{
     position: relative;
-    /* text-shadow: 1px 3px 3px rgb(238,75,43); */
+   
 }
 
 
