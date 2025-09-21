@@ -5,12 +5,41 @@ import bg from '../../Images/pyrite-626549_640.jpg'
 import instagram from '../../Images/icons8-instagram-48.png'
 import facebook from '../../Images/icons8-facebook-48.png'
 import linkedin from '../../Images/icons8-linkedin-48.png'
+import { useState } from "react";
+import { useNavigate } from "react-router";
+import "toastify-js/src/toastify.css"
+import { ToastContainer, toast } from 'react-toastify';
 
 
-const Contact=()=> {
+const Contact=({submitContactus })=> {
+      const showToastMessage = () => {
+    toast.success("Message sent successfully !", {
+      position: "top-right"
+    });
+  };
+    
+   const navigate = useNavigate();
+
+ const [info, setInfo] = useState({
+    name: "",
+    email: "",
+    area_of_interest: "",
+    area_of_interest_message: ""
+  });
+
+ const handleChange = (e) => {
+    const { name, value } = e.target;
+    setInfo((prev) => ({ ...prev, [name]: value }));
+  };
+
+const handleSubmit = (e) => {
+    e.preventDefault(); // prevent page reload
+    submitContactus(info, navigate,showToastMessage); // send to backend
+  };
     return (
     
     <div className='contact__container'>
+        <ToastContainer />
         <div className="contact__container--content">
             <div className="h-full w-full bg-cover bg-center  flex items-center justify-center " style={{ backgroundImage: `url(${bg})` }}>
 
@@ -30,19 +59,29 @@ const Contact=()=> {
         </div>
 
         <div className="info__container">
-            <div className="info__container--info">
+            <form className="info__container--info">
                 <div className="info__container--info--emailcon">
-                    <input type="text " className='space' placeholder='Your Name' />
-                    <input type="text" placeholder='Your Email' />
-                    <input type="text" placeholder='Your Area of interest' />
+                    <input type="text " className='space' placeholder='Your Name'  name="name" 
+                    value={info.name}
+                    onChange={handleChange}/>
+
+                    <input type="text" placeholder='Your Email' name="email"  value={info.email}
+                    onChange={handleChange}  />
+
+                    <input type="text" placeholder='Your Area of interest' name="area_of_interest"  value={info.area_of_interest}
+                    onChange={handleChange} />
                 </div>
-                <textarea name="areas_of_interest_message" id="areas_of_interest_id"
+                <textarea name="area_of_interest_message"       id="area_of_interest_message"
                    rows="6" cols="50" placeholder=" Your message"
+                   value={info.area_of_interest_message}
+                    onChange={handleChange}
+
                 ></textarea>
                 <div className="send_message">
-                    <button>Send Message</button>
+                    <button onClick={handleSubmit}>Send Message</button>
                 </div>
-            </div>
+            </form>
+            
             <div className="info__container--location">
                      <div className="flexy--title">
 

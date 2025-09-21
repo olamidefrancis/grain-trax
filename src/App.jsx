@@ -6,6 +6,7 @@ import Footer from './assets/Component/Footer/Footer'
 import Clouds from './assets/Component/Clouds/Clouds'
 import EmblaCarousel from './assets/Component/Carousel/Carousel'
 import { createBrowserRouter, RouterProvider } from "react-router"
+import submitContactus from './assets/Component/request'
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
   path:'/Contact',
   element: <>
                <Navbar/>
-               <Contact/>
+               <Contact submitContactus ={submitContactus }/>
                <Footer/>
            </>
   },
