@@ -1,8 +1,8 @@
 import './Industries.css'
-// import target from "../../Images/icons8-target-color-hand-drawn-70.png"
-import docbag from "../../Images/icons8-doctors-bag-50.png"
-import tractor from "../../Images/icons8-tractor-50.png"
-import preciousmetal from "../../Images/icons8-ruby-50.png"
+import metal from "../../Images/coin.png"
+import health from "../../Images/cardiogram.png"
+import tractorx from "../../Images/tractor.png"
+
 
 const Industries=()=> {
     return (
@@ -31,7 +31,7 @@ const Industries=()=> {
                     </div>
                     
                     <div className="industry__con--content--num--iages">
-                        <img src={docbag } alt="mapme" />
+                        <img  className='h-[10rem] w-[10rem]' src={health } alt="mapme" />
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@ const Industries=()=> {
                     </div>
                     
                     <div className="industry__con--content--num--iages">
-                        <img src={tractor } alt="mapme" />
+                        <img className='h-[10rem] w-[10rem]' src={tractorx } alt="mapme" />
                     </div>
                 </div>
 
@@ -80,7 +80,7 @@ const Industries=()=> {
                     </div>
                     
                     <div className="industry__con--content--num--iages">
-                        <img src={preciousmetal } alt="mapme" />
+                        <img src={metal } className='h-[10rem] w-[10rem]' alt="mapme" />
                     </div>
                 </div>
                 

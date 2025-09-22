@@ -1,4 +1,4 @@
-
+@import "tailwindcss";
 .industrymain__con{
     display: flex;
     flex-direction: column;
