@@ -24,8 +24,10 @@ const Navbar=()=> {
                 <div className="navbar__links--container">
 
                     <ul className="navbar__links">
-                        <Link to="/Home" className="links1"><p>Home</p></Link>
-                        {/* <Link to="/About" className="links2"> <p>About</p></Link> */}
+                        <Link to="/" className="links1"><p>Home</p></Link>
+
+                        <Link to="/About" className="links2"> <p>About</p></Link>
+                        
                         <Link to="/Contact" className="links3"><p>Contact</p></Link>
                     </ul>
                 </div>

@@ -45,7 +45,7 @@ const Clouds = () => {
     const features = [
         {
             icon:
-               <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21s9.286-9.841 9.286-13.841a3.864 3.864 0 0 0-1.182-3.008A4.13 4.13 0 0 0 12 3.007A4.13 4.13 0 0 0 8.896 4.15a3.864 3.864 0 0 0-1.182 3.01C7.714 11.16 17 21 17 21"/></svg>,
+               <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21s9.286-9.841 9.286-13.841a3.864 3.864 0 0 0-1.182-3.008A4.13 4.13 0 0 0 12 3.007A4.13 4.13 0 0 0 8.896 4.15a3.864 3.864 0 0 0-1.182 3.01C7.714 11.16 17 21 17 21"/></svg>,
             title: "Healthcare",
             desc: "Reliable procurement of certified healthcare equipment and medical supplies.\n Trusted healthcare equipment procurement services, partner with us for FDA/CE approveddevices,PPE and hospital essentials.",
 
@@ -55,7 +55,7 @@ const Clouds = () => {
         },
         {
             icon:
-               <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24" fill="#000000"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 15a4 4 0 1 0 8 0a4 4 0 1 0-8 0m4 0v.01M17 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-6.5 0H17"/><path d="M20 15.2V11a1 1 0 0 0-1-1h-6l-2-5H5v6.5"/><path d="M18 5h-1a1 1 0 0 0-1 1v4"/></g></svg>,
+               <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24" fill="#000000"><g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"><path d="M3 15a4 4 0 1 0 8 0a4 4 0 1 0-8 0m4 0v.01M17 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-6.5 0H17"/><path d="M20 15.2V11a1 1 0 0 0-1-1h-6l-2-5H5v6.5"/><path d="M18 5h-1a1 1 0 0 0-1 1v4"/></g></svg>,
             title: "Agriculture",
             desc: "Affordable procurement of tractors, construction and agricultural machinery from leading global brands.",
             equipment: "Our Agricultural Equipment Ofering",
@@ -63,7 +63,7 @@ const Clouds = () => {
         },
         {
             icon:
-               <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24" fill="#000000"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M9 14c0 1.657 2.686 3 6 3s6-1.343 6-3s-2.686-3-6-3s-6 1.343-6 3z"/><path d="M9 14v4c0 1.656 2.686 3 6 3s6-1.344 6-3v-4M3 6c0 1.072 1.144 2.062 3 2.598s4.144.536 6 0c1.856-.536 3-1.526 3-2.598c0-1.072-1.144-2.062-3-2.598s-4.144-.536-6 0C4.144 3.938 3 4.928 3 6z"/><path d="M3 6v10c0 .888.772 1.45 2 2"/><path d="M3 11c0 .888.772 1.45 2 2"/></g></svg>,
+               <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24" fill="#000000"><g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"><path d="M9 14c0 1.657 2.686 3 6 3s6-1.343 6-3s-2.686-3-6-3s-6 1.343-6 3z"/><path d="M9 14v4c0 1.656 2.686 3 6 3s6-1.344 6-3v-4M3 6c0 1.072 1.144 2.062 3 2.598s4.144.536 6 0c1.856-.536 3-1.526 3-2.598c0-1.072-1.144-2.062-3-2.598s-4.144-.536-6 0C4.144 3.938 3 4.928 3 6z"/><path d="M3 6v10c0 .888.772 1.45 2 2"/><path d="M3 11c0 .888.772 1.45 2 2"/></g></svg>,
             title: "Precious Metals",
             desc: "Buy gold, silver, and platinum through secure, certified    procurement services. We work with LBMA-accredited refineries for investment-grade precious metals.\n We specialize in the secure procurement and supply of precious metals for investment firms, jewellers, refiners, and industrial clients.\n All metals are sourced from LBMA-accredited refineries with full documentation and global delivery options.",
             equipment: "Precious Metals Available:",
