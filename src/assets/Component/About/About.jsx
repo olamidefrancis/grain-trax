@@ -24,10 +24,10 @@ const About = () => {
     ]
 
     return (
-        <section className='py-14 bg-gray-800 h-[100vh]  flex justify-center items-center'>
-            <div className="max-w-screen-xl mx-auto px-4 gap-12 md:flex md:px-8 flex justify-center items-center ">
+        <section className=' bg-gray-800 h-[100vh]  flex justify-center items-center w-full padi1'>
+            <div className="max-w-screen-xl mx-auto px-4 gap-10 md:flex md:px-8 flex justify-center items-center ">
                 <div className='flex-1 '>
-                    <div className="max-w-lg">
+                    <div className="max-w-lg padi1 ">
                         <h3 className='font-semibold text-cyan-400 text-2xl'>
                              Who we serve
                         </h3>
