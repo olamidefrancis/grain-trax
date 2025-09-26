@@ -1,54 +1,54 @@
+import './About.css'
+
+
 const About = () => {
 
     const faqsList = [
         {
-            q: "What are some random questions to ask?",
-            a: "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question."
+            q: "Reliable procurement of Healthcare equipment | Certified Medical Devices & Supplies",
+            
         },
         {
-            q: "Do you include common questions?",
-            a: "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator."
+            q: " Agricultural equipment | Tractors",
+            
         },
         {
-            q: "Can I use this for 21 questions?",
-            a: "Yes! there are two ways that you can use this question generator depending on what you're after. You can indicate that you want 21 questions generated."
+            q: "Precious Metals | Gold, Silver & Platinum",
+            
         },
         {
-            q: "Are these questions for girls or for boys?",
-            a: "The questions in this generator are gender neutral and can be used to ask either male of females (or any other gender the person identifies with)."
+        
+            a: "<>Financial institutions<>\n\n<>Jewellers and refiners<>\n\n<>Industrial manufacturers<>\n\n<>Private investors and collectors<>"
         },
-        {
-            q: "What do you wish you had more talent doing?",
-            a: "If you've been searching for a way to get random questions, you've landed on the correct webpage. We created the Random Question Generator to ask you as many random questions as your heart desires."
-        }
+       
     ]
 
     return (
-        <section className='py-14 bg-gray-800'>
-            <div className="max-w-screen-xl mx-auto px-4 gap-12 md:flex md:px-8">
-                <div className='flex-1'>
+        <section className='py-14 bg-gray-800 h-[100vh]  flex justify-center items-center'>
+            <div className="max-w-screen-xl mx-auto px-4 gap-12 md:flex md:px-8 flex justify-center items-center ">
+                <div className='flex-1 '>
                     <div className="max-w-lg">
-                        <h3 className='font-semibold text-cyan-400'>
-                            Frequently asked questions
+                        <h3 className='font-semibold text-cyan-400 text-2xl'>
+                             Who we serve
                         </h3>
                         <p className='mt-3 text-white text-3xl font-extrabold sm:text-4xl'>
                             All information you need to know
                         </p>
                     </div>
                 </div>
-                <div className='flex-1 mt-12 md:mt-0'>
-                    <ul className='space-y-4 divide-y divide-gray-700'>
+                <div className='flex-1 mt-12 md:mt-0 flex j'>
+                    <ul className='space-y-4 divide-y divide-gray-700 '>
                         {faqsList.map((item, idx) => (
                             <li
                                 className="py-5"
                                 key={idx}>
                                 <summary
-                                    className="flex items-center justify-between font-semibold text-gray-200">
+                                    className="flex items-center justify-between font-semibold text-gray-200 text-2xl paddi ">
                                     {item.q}
                                 </summary>
                                 <p
                                     dangerouslySetInnerHTML={{ __html: item.a }}
-                                    className='mt-3 text-gray-300 leading-relaxed'>
+                                    className="  font-semibold text-gray-200 whitespace-pre-line text-2xl ">
                                 </p>
                             </li>
                         ))}
