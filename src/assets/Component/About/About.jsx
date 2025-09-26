@@ -43,12 +43,12 @@ const About = () => {
                                 className="py-5"
                                 key={idx}>
                                 <summary
-                                    className="flex items-center justify-between font-semibold text-gray-200 text-2xl paddi ">
+                                    className="flex items-center justify-between font-semibold text-gray-200 text-xl paddi ">
                                     {item.q}
                                 </summary>
                                 <p
                                     dangerouslySetInnerHTML={{ __html: item.a }}
-                                    className="  font-semibold text-gray-200 whitespace-pre-line text-2xl ">
+                                    className="  font-semibold text-gray-200 whitespace-pre-line text-xl ">
                                 </p>
                             </li>
                         ))}
