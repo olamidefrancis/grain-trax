@@ -14,7 +14,7 @@ const router = createBrowserRouter([
   element: <div>
                 <Navbar/>
                 <EmblaCarousel/>
-                <Industries/>
+                {/* <Industries/> */}
                 <Clouds/>
                 <Footer/>
            </div>,
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
   element: <div>
                 <Navbar/>
                 <EmblaCarousel/>
-                <Industries/>
+                {/* <Industries/> */}
                 <Clouds/>
                 <Footer/>
            </div>,

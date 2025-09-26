@@ -1,4 +1,4 @@
-.cloud__container{
+.clound_con{
     height: fit-content;
     width: 100%;
     background-position: center;
@@ -12,120 +12,16 @@
    
 }
 
-.cloud__container::after{
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: rgb(251, 233, 200);
-  top:0;
-  left:0;
-  clip-path: polygon(0 0, 100% 0, 100% 60%, 0% 100%);
-   position: absolute;
-}
-
-
-
-.bordercon{
-  height: fit-content;
-    width: fit-content;
-    /* border-style: solid;
-    border-width: 2px;
-   border-image: linear-gradient(90deg,red 0 15%, rgb(89, 85, 85) 10% 85%, red 66% 100%) 10/2px ;
-   display: flex;
-   justify-content: center;
-   align-items: center; */
- 
-    border-style: solid;
-   border-image: linear-gradient(45deg,red 0 15%, white 10% 85%, red 66% 100%) 10/6px ;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 2rem;
-   position: absolute;
-   z-index: 3;
-   top: 1rem;
-   left: 1rem;
-}
-
-.bordercon h2{
-  
-  font-size: 2rem;
-  font-family: "Federant", serif;
-}
-
-.cloud__container-aboutus{
-  width: 90%;
-  height: fit-content;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.content_ph{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  z-index: 4;
-  padding: 2rem;
-  row-gap: 2rem;
-  font-family: "Federant", serif;
-}
-.cloud__container-aboutus h2{
-   font-size: 2rem;
-  color: rgb(244, 69, 69);
-}
-
-.cloud__container-aboutus-content{
-  width: 70%;
-  height: 70%;
-  /* background-color: blue; */
-  color: black;
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 1rem;
   row-gap: 1rem;
-
 }
 
-.cloud__container-aboutus-content h3{
-  text-align: center;
+.clound_con_1{
+    row-gap: 1rem;
 }
 
-.cloud__container-aboutus-content-whoweserve{
-  display: flex;
-  flex-direction: column;
-  row-gap: 0.1rem;
-}
-
-.cloud__container-aboutus-content-whoweserve{
-   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  width: 100%;
-  height: fit-content;
-}
-
-.cloud__container-aboutus-content-whoweserve h4{
-  color: red;
-  align-self: center;
-}
-
-.cloud__container-aboutus-content-whoweserve-arrow{
- list-style: none; 
- /* background-color: red; */
- padding-left: 2rem;
-
-}
-.cloud__container-aboutus-content-whoweserve-arrow li{
-    position: relative;
-}
-
-.cloud__container-aboutus-content-whoweserve-arrow li::before{
-  content: "";
-  position: absolute;
-  left: -1.1em;
-  top: 0.35em;
-  width: 0;
-  height: 0;
-  border-top: 0.4em solid transparent;
-  border-bottom: 0.4em solid transparent;
-  border-left: 0.4em solid #ff9200;
+.industry_p_con {
+  row-gap: 1rem;
 }
