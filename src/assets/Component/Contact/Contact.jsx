@@ -109,7 +109,7 @@ const handleSubmit = (e) => {
                           {/* <Link  to="/Home" className="instagream">
                                 <img src={facebook} alt="" />
                           </Link> */}
-                          <Link to="/Home" className="facebook">
+                          <Link to="https://www.instagram.com/reel/DOZIR5mjEhn/?igsh=cTEzbzYyYXBmNW1s" className="facebook">
                                 <img src={instagram} alt="" />
                           </Link>
                           <Link to="/Home" className="Linkedin">
