@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 65vh;
+  height: 75vh;
   width: 100%;
   /* border: 2px solid red; */
  
@@ -78,6 +78,7 @@ z-index: 100;
     grid-template-rows: 40px;
     gap: 5px;
     padding-top: 20px;
+   
 }
 
 .content button{

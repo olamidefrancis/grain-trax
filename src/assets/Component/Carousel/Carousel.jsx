@@ -1,5 +1,5 @@
 import React from 'react'
-import one from '../../Images/one.jpg'
+import one from '../../Images/doc3.jpg'
 import two from '../../Images/two.jpg'
 import three from '../../Images/four.jpg'
 import Autoplay from 'embla-carousel-autoplay'
@@ -43,10 +43,10 @@ function EmblaCarousel() {
                                       <div className="title">Title</div>
                                       <div className="topic">Brokerage Firm</div>
                                       <div className="description">Lorem ipsum dol.</div>
-                                      <div className="buttons">
+                                      {/* <div className="buttons">
                                           <button>See More</button>
                                           <button>Subscribe</button>
-                                      </div>
+                                      </div> */}
                                  </div>
 
                           </div>
@@ -62,10 +62,10 @@ function EmblaCarousel() {
                                           <div className="title">Money</div>
                                           <div className="topic">Brokerage Firm</div>
                                           <div className="description">Lorem ipsum dol.</div>
-                                          <div className="buttons">
+                                          {/* <div className="buttons">
                                               <button>See More</button>
                                               <button>Subscribe</button>
-                                          </div>
+                                          </div> */}
                                        </div>
                           </div>
 
@@ -78,13 +78,13 @@ function EmblaCarousel() {
 
                               <div className="content">
                                   <div className="author">OLAMIDE</div>
-                                  <div className="title">Tired</div>
-                                  <div className="topic">What is Love</div>
+                                  <div className="title">Developer</div>
+                                  <div className="topic">Web Dev</div>
                                   <div className="description">Lorem ipsum dol.</div>
-                                  <div className="buttons">
-                                      <button>See More</button>
-                                      <button>Subscribe</button>
-                                  </div>
+                                  {/* <div className="buttons">
+                                      <button>Send Us</button>
+                                      <button>A Message</button>
+                                  </div> */}
                                </div>
 
                           </div> 

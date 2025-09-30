@@ -1,7 +1,6 @@
 import './App.css'
 import Navbar from './assets/Component/Navbar/Navbar'
 import Contact from './assets/Component/Contact/Contact'
-import Industries from './assets/Component/Industries/Industries'
 import Footer from './assets/Component/Footer/Footer'
 import Clouds from './assets/Component/Clouds/Clouds'
 import About from './assets/Component/About/About'
@@ -15,7 +14,6 @@ const router = createBrowserRouter([
   element: <div>
                 <Navbar/>
                 <EmblaCarousel/>
-                {/* <Industries/> */}
                 <Clouds/>
                 <Footer/>
            </div>,

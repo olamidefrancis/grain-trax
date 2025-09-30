@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import "tailwindcss";
 import bg from '../../Images/pyrite-626549_640.jpg'
 import instagram from '../../Images/icons8-instagram-48.png'
-import facebook from '../../Images/icons8-facebook-48.png'
+// import facebook from '../../Images/icons8-facebook-48.png'
 import linkedin from '../../Images/icons8-linkedin-48.png'
 import { useState } from "react";
 import { useNavigate } from "react-router";
@@ -106,9 +106,9 @@ const handleSubmit = (e) => {
 
                         <div className='socialflexy'> 
                                 
-                          <Link  to="/Home" className="instagream">
+                          {/* <Link  to="/Home" className="instagream">
                                 <img src={facebook} alt="" />
-                          </Link>
+                          </Link> */}
                           <Link to="/Home" className="facebook">
                                 <img src={instagram} alt="" />
                           </Link>
