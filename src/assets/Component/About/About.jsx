@@ -1,5 +1,6 @@
 import './About.css';
 import { Link } from 'react-router';
+import Navbar from '../Navbar/Navbar'
 
 const About = () => {
   const faqsList = [
@@ -20,9 +21,10 @@ const About = () => {
   return (
     <section className="flex flex-col bg-gray-800 h-screen overflow-hidden">
   
-      <Link to="/" className="absolute top-6 left-6 text-white text-6xl font-bold">
+      {/* <Link to="/" className="absolute top-6 left-6 text-white text-6xl font-bold">
         &#8592;
-      </Link>
+      </Link> */}
+      <Navbar/>
 
       
       <div className="flex flex-1 justify-center items-center px-4">
