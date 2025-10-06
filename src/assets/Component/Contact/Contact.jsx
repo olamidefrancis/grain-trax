@@ -112,7 +112,7 @@ const handleSubmit = (e) => {
                           <Link to="https://www.instagram.com/reel/DOZIR5mjEhn/?igsh=cTEzbzYyYXBmNW1s" className="facebook">
                                 <img src={instagram} alt="" />
                           </Link>
-                          <Link to="/Home" className="Linkedin">
+                          <Link to="https://www.linkedin.com/company/grain-trax-inc/?viewAsMember=true" className="Linkedin">
                                 <img src={linkedin} alt="" />
                           </Link>
                             
