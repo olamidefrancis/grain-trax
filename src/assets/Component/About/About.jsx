@@ -1,67 +1,66 @@
-import './About.css'
+import './About.css';
 import { Link } from 'react-router';
 
 const About = () => {
+  const faqsList = [
+    {
+      q: "Reliable procurement of Healthcare equipment | Certified Medical Devices & Supplies",
+    },
+    {
+      q: "Agricultural equipment | Tractors",
+    },
+    {
+      q: "Precious Metals | Gold, Silver & Platinum",
+    },
+    {
+      a: "<>Financial institutions<>\n\n<>Jewellers and refiners<>\n\n<>Industrial manufacturers<>\n\n<>Private investors and collectors<>"
+    },
+  ];
 
-    const faqsList = [
-        {
-            q: "Reliable procurement of Healthcare equipment | Certified Medical Devices & Supplies",
-            
-        },
-        {
-            q: " Agricultural equipment | Tractors",
-            
-        },
-        {
-            q: "Precious Metals | Gold, Silver & Platinum",
-            
-        },
-        {
+  return (
+    <section className="flex flex-col bg-gray-800 h-screen overflow-hidden">
+  
+      <Link to="/" className="absolute top-6 left-6 text-white text-6xl font-bold">
+        &#8592;
+      </Link>
+
+      
+      <div className="flex flex-1 justify-center items-center px-4">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-10 max-w-6xl w-full">
+          
+         
+          <div className="flex-1 text-center md:text-left">
+            <h3 className="font-semibold text-cyan-400 text-2xl">
+              Who we serve
+            </h3>
+            <p className="mt-3 text-white text-3xl font-extrabold sm:text-4xl">
+              All information you need to know
+            </p>
+          </div>
+
         
-            a: "<>Financial institutions<>\n\n<>Jewellers and refiners<>\n\n<>Industrial manufacturers<>\n\n<>Private investors and collectors<>"
-        },
-       
-    ]
+          <div className="flex-1">
+            <ul className="space-y-4 divide-y divide-gray-700 text-center md:text-left">
+              {faqsList.map((item, idx) => (
+                <li key={idx} className="pb-10 pt-6">
+                        <summary className="font-semibold text-gray-200 text-2xl mb-4">
+                            {item.q}
+                        </summary>
+                        {item.a && (
+                            <p
+                            dangerouslySetInnerHTML={{ __html: item.a }}
+                            className="font-semibold text-gray-200 whitespace-pre-line text-2xl mt-2"
+                            />
+                        )}
+                </li>
 
-    return (
-        <section className='flex bg-gray-800 flex-col h-[100vh]'>
-            <Link to='/' className='pd-l-2'><span className='homereturn'>&#8592;</span></Link> 
-            <div className='  flex justify-center items-center w-full h-full '>
-
-                <div className="  px-4  flex justify-center items-center ">
-                    <div className='flex-1 h-fit'>
-                        <div className="max-w-lg padi1 ">
-                            <h3 className='font-semibold text-cyan-400 text-2xl'>
-                                Who we serve
-                            </h3>
-                            <p className='mt-3 text-white text-3xl font-extrabold sm:text-4xl'>
-                                All information you need to know
-                            </p>
-                        </div>
-                    </div>
-                    <div className='flex-1 mt-12 md:mt-0 flex h-fit'>
-                        <ul className='space-y-4 divide-y divide-gray-700 '>
-                            {faqsList.map((item, idx) => (
-                                <li
-                                    className="py-5"
-                                    key={idx}>
-                                    <summary
-                                        className="flex items-center justify-between font-semibold text-gray-200 text-xl paddi ">
-                                        {item.q}
-                                    </summary>
-                                    <p
-                                        dangerouslySetInnerHTML={{ __html: item.a }}
-                                        className="  font-semibold text-gray-200 whitespace-pre-line text-xl ">
-                                    </p>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    );
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
-
-export default About
+export default About;
