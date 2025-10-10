@@ -1,6 +1,5 @@
 
-const API_URL = 'http://localhost:8000'
-
+const API_URL = 'https://graintrax.com/api';
 
 
 async function submitContactus(formData,navigate,showToastMessage) {
