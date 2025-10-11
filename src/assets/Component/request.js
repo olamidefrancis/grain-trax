@@ -14,7 +14,9 @@ async function submitContactus(formData,navigate,showToastMessage) {
     });
 
     if (!response.ok) {
+      console.log(Error)
       throw new Error(`Server error: ${response.status}`);
+      
     }
 
     let data = await response.json();
