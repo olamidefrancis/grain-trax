@@ -25,7 +25,7 @@ async function submitContactus(formData,navigate,showToastMessage) {
       showToastMessage();
       setTimeout(() => {
             navigate("/");
-          }, 4000);
+          }, 2000);
     }
     console.log( data);
   } catch (error) {
