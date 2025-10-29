@@ -22,7 +22,7 @@
   display: flex;
 }
 
-.embla::after{
+.embla__slide::after{
   content:'';
   position: absolute;
   top:0;
@@ -45,7 +45,7 @@ position: absolute;
 top:20%;
 width: 1140px;
 max-width: 80%; 
-left: 50%;
+left: 43%;
 transform: translateX(-50%); 
 padding-right: 30%;
 box-sizing: border-box;
@@ -60,16 +60,19 @@ z-index: 100;
 
 }
 
-.content .title,
 .content .topic{
-    font-weight: bold;
-    font-size: 4rem;
+    font-size: 1.5rem;
     list-style: 2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    line-height: 1.6;
 }
 
-.content .topic{
-    color:rgb(238,75,43);
+.content .title{
+     font-weight: bold;
     font-family: "Federant", serif;
+    font-size: 4rem;
+    list-style: 2rem;
 }
 
 .content .buttons{
@@ -155,7 +158,7 @@ z-index: 100;
   }
 
 
-  @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
   .control{
     display: flex;
@@ -178,7 +181,7 @@ z-index: 100;
 
   .arrows{
 
-   top: 83%;
+   top: 88%;
    right: 60%;
   }
     .arrows button {
@@ -186,4 +189,20 @@ z-index: 100;
       width: 25px;
     }
 
+    .content .topic{
+      font-size: 0.9rem;
+      padding-top: 0.5rem;
     }
+
+   
+    .content .title{
+      font-size: 2rem;
+    }
+
+    .content{
+      top: 0;
+      padding-top: 1rem;
+      left: 45%;
+    }
+
+  }
