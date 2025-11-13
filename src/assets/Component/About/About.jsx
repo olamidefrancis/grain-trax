@@ -61,10 +61,7 @@ const AboutUs = () => {
             <span className="text-teal-400"> All you need to know</span>{" "}
             
           </h2>
-          <p className="text-gray-300 mb-6 text-base md:text-xl max-w-xl mx-auto md:mx-0">
-            Our expert guidance and tools enable faster, smarter decisions and
-            stronger performance on an organization’s mission-critical priorities.
-          </p>
+
 
           <div className="grid sm:grid-cols-2 gap-3 mt-6">
             {links.map((link, i) => (
@@ -82,7 +79,7 @@ const AboutUs = () => {
         {/* Right section */}
         <div className="flex-1 flex flex-col gap-y-6 items-center justify-center  min-h-screen text-center md:text-left padds  max-[500px]:justify-start   ">
           <h1 className=" text-3xl md:text-4xl font-bold  text-gray-300 mb-6">
-            About GrainTraxs
+            About GrainTrax
           </h1>
           <div className="grid sm:grid-cols-2 gap-8">
                 {stats.map((item, i) => (
