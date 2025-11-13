@@ -43,9 +43,7 @@ const Clouds = () => {
                     <h3 className="text-white text-3xl font-semibold sm:text-4xl">
                           Industries
                     </h3>
-                    <p className="mt-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus
-                    </p>
+                   
                 </div>
                 <div className="mt-12 lg:mt-0">
                     <ul className="grid gap-8 sm:grid-cols-2">
