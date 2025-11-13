@@ -3,7 +3,7 @@ import Navbar from './assets/Component/Navbar/Navbar'
 import Contact from './assets/Component/Contact/Contact'
 import Footer from './assets/Component/Footer/Footer'
 import Clouds from './assets/Component/Clouds/Clouds'
-import About from './assets/Component/About/About'
+import AboutUs from './assets/Component/About/About'
 import EmblaCarousel from './assets/Component/Carousel/Carousel'
 import { createBrowserRouter, RouterProvider } from "react-router"
 import submitContactus from './assets/Component/request'
@@ -32,8 +32,8 @@ const router = createBrowserRouter([
     {
   path:'/About',
   element: <div>
-                {/* <Navbar/> */}
-                <About/>
+                <Navbar/> 
+                <AboutUs/>
            </div>,
 
  }
