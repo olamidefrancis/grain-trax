@@ -3,7 +3,8 @@ import { Link } from 'react-router'
 import "tailwindcss";
 import bg from '../../Images/pyrite-626549_640.jpg'
 import instagram from '../../Images/icons8-instagram-48.png'
-// import facebook from '../../Images/icons8-facebook-48.png'
+
+import whatsapp from "../../Images/icons8-whatsapp-38.png"
 import linkedin from '../../Images/icons8-linkedin-48.png'
 import { useState } from "react";
 import { useNavigate } from "react-router";
@@ -97,6 +98,7 @@ const handleSubmit = (e) => {
                         <div className='flexy'> 
                             <i className="fa-solid fa-phone fa-l" style={{color: "rgb(235, 203, 144)"}}></i>
                             <p>+375 25 950-23-88</p>
+                            
                         </div>
 
                         <div className='flexy'> 
@@ -115,6 +117,10 @@ const handleSubmit = (e) => {
                           <Link to="https://www.linkedin.com/company/grain-trax-inc/?viewAsMember=true" className="Linkedin">
                                 <img src={linkedin} alt="" />
                           </Link>
+
+                          <a href="https://wa.me/+447424858685" target='_blank'>
+                            <img src={whatsapp}alt="whatsapp_button" />
+                          </a>
                             
                             
                         </div>
