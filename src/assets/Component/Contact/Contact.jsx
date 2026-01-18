@@ -118,9 +118,9 @@ const handleSubmit = (e) => {
                                 <img src={linkedin} alt="" />
                           </Link>
 
-                          <Link to="https://wa.me/+375259502388" target='_blank'>
+                          <a to="https://wa.me/+375259502388" target='_blank'>
                             <img src={whatsapp}alt="whatsapp_button" />
-                          </Link>
+                          </a>
                             
                             
                         </div>
